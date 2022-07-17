@@ -6,7 +6,7 @@
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
-  "name": "pssssd-verification-bot",
+  "name": "dreamyd-dragons-verification-bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   },
   "author": "Blizzy#4865",
   "license": "ISC",
-  "description": ""
+  "description": "Please follow the steps listed below",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsmokovitz/Dreamy-Dragons-Verification-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsmokovitz/Dreamy-Dragons-Verification-Bot/issues"
+  },
+  "homepage": "https://github.com/bsmokovitz/Dreamy-Dragons-Verification-Bot#readme"
 }

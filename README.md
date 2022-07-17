@@ -21,6 +21,8 @@ Make sure you fill out the value inside of the `.env` filled out
 ```env
 TOKEN = ''
 ROLE_ID = ''
+STATUS = 'verification'
+TYPE - 'WATCHING'
 ```
 
 This command is used to start the bot

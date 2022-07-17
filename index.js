@@ -14,6 +14,7 @@ const client = new Client({
 });
 
 client.on('message', (message) => {
+  if (message.member.id === '982604935046762507') {
     if (message.content === '-panel') {
         if (message.author.bot) return;
 
@@ -29,6 +30,7 @@ client.on('message', (message) => {
         });
         }
     }
+  }
 );
 
 client.on('interactionCreate', async (interaction) => {
@@ -84,5 +86,11 @@ client.on('interactionCreate', async (interaction) => {
 client.once('ready', () => {
     console.log(`${client.user.tag} is ready!`);
 });
+
+client.on('ready', () => {
+    client.user.setActivity(process.env.STATUS, { type: process.env.TYPE });
+}
+);
+
 
 client.login(process.env.TOKEN);
